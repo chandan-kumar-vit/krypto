@@ -1,0 +1,6 @@
+extends base.pug
+
+block content
+    h3 #{message}
+    form(action="#{formAction}", method="POST")
+        input(type="submit" name="alerts" value="View all Alerts")
